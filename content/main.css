@@ -1,0 +1,116 @@
+@font-face {
+  font-family: arsenal_normal;
+  src: local('arsenal_normal'), url('fonts/Arsenal-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: arsenal_italic;
+  src: local('arsenal_italic'), url('fonts/Arsenal-Italic.otf') format('opentype');
+}
+@font-face {
+  font-family: arsenal_bold;
+  src: local('arsenal_bold'), url('fonts/Arsenal-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: arsenal_bolditalic;
+  src: local('arsenal_bolditalic'), url('fonts/Arsenal-BoldItalic.otf') format('opentype');
+}
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+body {
+  font-weight: 300;
+  background-color: #750004;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  clear: both;
+  margin-top: 10px;
+}
+footer a {
+  color: #000000;
+}
+footer menu {
+  margin: 0;
+  text-align: center;
+}
+footer menu a {
+  font-size: 14px;
+}
+footer menu a:hover {
+  text-decoration: none;
+}
+footer menu p {
+  margin: 0;
+  text-align: center;
+}
+footer menu span {
+  font-size: 14px;
+}
+h2 {
+  background-color: #0B5B8E;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 4px;
+  padding: 3px 3px 3px 10px;
+}
+h3 {
+  margin: 0;
+  cursor: pointer;
+}
+header {
+  background-color: #750004;
+  color: #fff;
+  height: 110px;
+  position: relative;
+}
+header > img {
+  position: relative;
+  top: 0;
+  left: 50px;
+}
+header > div {
+  position: absolute;
+  left: 250px;
+  top: 20px;
+}
+header > div span {
+  font-family: arsenal_bold;
+  font-size: 2.5em;
+  display: block;
+}
+header > div span:last-child {
+  font-family: arsenal_italic;
+  position: relative;
+  font-size: .9em;
+  left: 50px;
+}
+body section:first-child {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+section {
+  font-size: 0.8em;
+}
+section > div {
+  min-height: 300px;
+  float: left;
+}
+section > div:first-child {
+  width: 140px;
+  margin-right: 10px;
+}
+section > div:nth-child(2) {
+  width: 840px;
+  margin-right: 10px;
+}
+small {
+  display: block;
+}
+.topblogs article {
+  margin-bottom: 20px;
+}

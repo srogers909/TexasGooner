@@ -1,0 +1,9 @@
+<div ng-controller="homeController">
+    <p>Home!</p>
+
+    <table>
+        <tr ng-repeat="article in articles track by $index">
+            <td>{{ article.title }}</td>
+        </tr>
+    </table>
+</div>
